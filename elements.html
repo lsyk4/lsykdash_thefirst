@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="dist/images/logo.png">
+    <link href="dist/css/plugins.min.css" rel="stylesheet">
+    <link href="dist/css/main.min.css" rel="stylesheet">
+    <script src="dist/js/plugins.min.js"></script>
+    <title>LsykDash TheFirst</title>
+  </head>
+  <body>
+    <!-- Navbar BEGIN -->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="./">
+          <img src="dist/images/logo.png" alt="">
+          LsykDash TheFirst
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-bell"></i>
+                <span class="notifications">9+</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                <i class="fas fa-cog"></i>
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"><i class="fas fa-user"></i> My Profile</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- Navbar END -->
+    <div class="container-fluid">
+      <div class="row">
+
+          <div class="col-12 main"> <!-- Main BEGIN -->
+            <div class="row">
+              <!-- Sidebar BEGIN -->
+                <div class="col-6 col-md-2 sidebar">
+                  <ul>
+                    <li class="item">
+                      <a href="./"><span><i class="fas fa-home"></i></span>Home</a>
+                    </li>
+                    <li class="item">
+                      <a href="elements.html"><span><i class="fas fa-home"></i></span>Elements</a>
+                    </li>
+                  </ul>
+                </div>
+                <button class="revealsidebar">></button>
+                <button class="hidesidebar">&times;</button>
+              <!-- Sidebar END -->
+              <div class="col-12 col-md-10 content"><!-- Content BEGIN -->
+                <div class="row">
+                  <div class="content_main">
+                    <div class="col-12">
+                      <div class="row">
+                          <div class="col-12">
+                            <h1>ELEMENTS</h1>
+                          </div>
+                          <!-- FORMS BEGIN -->
+                          <div class="col-12">
+                            <h2>Forms:</h2>
+                          </div>
+                          <form class="col-12" action="">
+                            <label>Text:</label>
+                            <input type="text" placeholder="Text">
+                            <label>Number:</label>
+                            <input type="number" placeholder="123456789">
+                            <label>Date:</label>
+                            <input type="date">
+                            <label>Color:</label>
+                            <input type="color">
+                            <label>Email:</label>
+                            <input type="email" placeholder="helloworld@lsyk4.com">
+                            <label>Disabled:</label>
+                            <input type="text" disabled placeholder="Disabled">
+                            <label>Password:</label>
+                            <input type="password" placeholder="P4s$w0r>">
+                            <label>Textarea:</label>
+                            <textarea></textarea>
+                          </form>
+                          <div class="col-12 col-md-6">
+                            <form action="">
+                              <label for="">Username:</label>
+                              <input type="text">
+                              <label for="">Password:</label>
+                              <input type="password">
+                            </form>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <form action="">
+                              <div class="col-12 text-center">
+                                <img class="rounded-circle" src="dist/images/person.jpg" width="50px">
+                              </div>
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis minus, vitae recusandae sint! Reprehenderit eveniet in labore similique consequuntur doloribus iste cumque dolor sit, iusto soluta, quibusdam nemo quidem distinctio.
+                              </p>
+                              <textarea></textarea>
+
+                            </form>
+                          </div>
+                          <!-- FORMS END -->
+                          <!-- ALERTS BEGIN -->
+                          <div class="col-12">
+                            <h2>Alerts:</h2>
+                          </div>
+                          <div class="col-12">
+                            There is two ways to get an alert:
+                            <br>
+                            The first one:
+                            <br>
+                            Using Javascript <code>display_alert("message");</code>
+                            <br>
+                            The Second one:
+                            <br>
+                            Using "alert" data attribute<code>&#60;button data-alert="This is the alert"&#62;Click to alert!&#60;/button&#62;</code>
+                            <br>
+                            <h6>Try it:</h6>
+                            <button class="btn" data-alert="Visit <a href='http://lsyk4.com'>Link</a>">Alert with link</button>
+                            <button class="btn" data-alert="Your message">Click to alert!</button>
+                          </div>
+                          <!-- ALERTS END -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- Content END -->
+            </div>
+          </div><!-- Main END -->
+      </div>
+    </div>
+    <footer class="text-center">
+      Powered By <a href="http://lsyk4.com/">Lsyk4</a>
+    </footer>
+    <script src="dist/js/main.min.js"></script>
+  </body>
+</html>
